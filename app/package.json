@@ -1,0 +1,18 @@
+{
+  "name": "s3-explorer",
+  "productName": "S3 Explorer",
+  "version": "0.1.0",
+  "description": "File Explorer for AWS S3",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Felipe Amaro",
+    "email": "felipekbca@gmail.com",
+    "url": "http://github.com/felipekbca/s3explorer"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../internals/scripts/BabelRegister.js ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
